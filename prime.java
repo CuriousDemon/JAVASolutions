@@ -1,3 +1,5 @@
+// Write a program in Java to generate first n prime numbers.
+
 public class prime {
     public static void main(String[] args) {
         int flag = 0;
