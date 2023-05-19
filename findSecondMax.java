@@ -18,7 +18,7 @@ public class findSecondMax {
             System.out.print("Enter positive number : ");
             num = input.nextInt();
             // Write a condition to break the loop or exit from the program
-            if (num == -1 && i == 2) {
+            if (num == -1 && i >= 2) {
                 break;
             }else if (num == -1) {
                 secondMax = firstMax;
@@ -34,12 +34,9 @@ public class findSecondMax {
             }
 
             i++;
-            // Write logic for all positive value equal to "true"
-            if (i>0) {
-                x = true;
-            }
         }
         // System.out.print("Second max element is : "+ secondMax);
+        System.out.printf("Total %d numbers you have enters\n", i);
         System.out.printf("Second max element is : %d", secondMax);
         input.close();
     }
